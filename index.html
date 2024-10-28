@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Greco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Quiz di Greco</h1>
+    <label for="modalita">Scegli la modalità:</label>
+    <select id="modalita">
+        <option value="nomi">Nomi</option>
+        <option value="aggettivi">Aggettivi</option>
+        <option value="verbi">Verbi</option>
+        <option value="tutto">Tutto</option>
+    </select>
+    <button id="startQuiz">Inizia Quiz</button>
+
+    <div id="quizContainer" style="display:none;">
+        <p id="quizPrompt"></p>
+        <button id="nextBtn">Vedi Risposta</button>
+        <p id="quizAnswer" style="display:none;"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
