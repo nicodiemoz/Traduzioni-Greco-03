@@ -73,6 +73,13 @@ const verbi = [
     { parola: "λανθάνω", traduzione: "sto nascosto (nel part.) di nascosto" },
     { parola: "φθάνω", traduzione: "prevengo (nel part.) primo/per primo" },
     { parola: "δηλόω", traduzione: "appaio/mi mostro (nel part.) chiaramente" }
+],
+
+    
+  const complementi = [
+    { greek: "Στο σπίτι", italian: "A casa" },
+    { greek: "Με το αυτοκίνητο", italian: "Con la macchina" }
+  ]
 ];
 
 let currentWordIndex = 0;
@@ -96,6 +103,8 @@ document.getElementById("startQuiz").addEventListener("click", function () {
         shuffledWords = [...aggettivi];
     } else if (currentMode === 'verbi') {
         shuffledWords = [...verbi];
+    } else if (currentMode === 'complementi') {
+        shuffledWords = [...complementi];
     } else {
         shuffledWords = [...nomi, ...aggettivi, ...verbi];
     }
