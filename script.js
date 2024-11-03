@@ -77,8 +77,18 @@ const verbi = [
 
     
   const complementi = [
-    { greek: "Στο σπίτι", italian: "A casa" },
-    { greek: "Με το αυτοκίνητο", italian: "Con la macchina" }
+    { parola: "εν + dativo / ὑπό + genitivo / παρά + dativo", traduzione: "Stato in luogo" },
+    { parola: "εἰς / πρός / ἐπί + accusativo", traduzione: "Moto a luogo" },
+    { parola: "εκ / από + genitivo", traduzione: "Moto da luogo" },
+    { parola: "διά + genitivo / κατὰ + accusativo", traduzione: "Moto per luogo" },
+    { parola: "συν + dativo / μετά + genitivo", traduzione: "Compagnia/Unione" },
+    { parola: "διά + accusativo", traduzione: "Causa" },
+    { parola: "συν + dativo", traduzione: "Modo" },
+    { parola: "διά + genitivo", traduzione: "Mezzo" },
+    { parola: "περί + genitivo", traduzione: "Argomento" },
+    { parola: "ὑπό / παρά / εκ / από + genitivo/dativo", traduzione: "Agente/Causa efficiente" },
+    { parola: "εν + dativo / πρό + genitivo (prima) / μετά + accusativo/genitivo (dopo)", traduzione: "Tempo determinato" },
+    { parola: "εν / πρό / μετά + accusativo", traduzione: "Tempo continuato" }
   ]
 ];
 
