@@ -116,7 +116,7 @@ document.getElementById("startQuiz").addEventListener("click", function () {
     } else if (currentMode === 'complementi') {
         shuffledWords = [...complementi];
     } else {
-        shuffledWords = [...nomi, ...aggettivi, ...verbi];
+        shuffledWords = [...nomi, ...aggettivi, ...verbi, ...complementi];
     }
     
     shuffle(shuffledWords);
